@@ -28,5 +28,6 @@ public class UserController {
         /*return BaseResponse.success(users);*/
         request.setAttribute("name",users.get(0).getName());
         return "/ht/show";
+        /*return "index";*/
     }
 }
